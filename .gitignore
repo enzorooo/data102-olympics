@@ -130,3 +130,7 @@ dmypy.json
 
 # Exclude data for project
 data/*
+!data/data.md
+
+# Exclude Requirements.in
+requirements.in
