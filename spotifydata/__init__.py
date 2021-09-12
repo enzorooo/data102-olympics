@@ -17,10 +17,12 @@ def get_mainfeat(sp):
     return df
 
 def run_scraper():
-    charts = Charts()
+    charts = extract_charts()
     sp = Features(charts)
     features = get_mainfeat(sp)
+    print("JOB: MERGING DATASET")
     df = charts.merge(features, on="track_id", how="left")
     df.to_csv("data/charts-features.csv", index=False)
+    print("SUCCESS: Datasets have been Merged")
     print("Done Scraping Data!")
     return df
