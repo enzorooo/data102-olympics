@@ -34,7 +34,9 @@ To install the libraries, run the following command:
 
 # Scraping Data
 Run the following command to scrape the data from `SpotifyCharts.com` and `Spotify's WEBAPI`:
-```python3 main.py```
+```
+python3 main.py
+```
 
 # Data Exploration & Prediction
 You may view how we explored the data and made predictions using through `spotify_eda_prediction.ipynb`.
