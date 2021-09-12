@@ -40,3 +40,7 @@ python3 main.py
 
 # Data Exploration & Prediction
 You may view how we explored the data and made predictions using through `spotify_eda_prediction.ipynb`.
+
+# References
+- Giridih, J. (2020). Spotify Analysis (Starman). Retrieved from https://www.kaggle.com/darkstardream/spotify-analysis-starman
+- Surat, Gu. (2021). Music Recommendation System using Spotify Dataset. Retrieved from https://www.kaggle.com/vatsalmavani/music-recommendation-system-using-spotify-dataset
