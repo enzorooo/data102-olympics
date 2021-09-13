@@ -30,7 +30,7 @@ plotly
 ```
 
 To install the libraries, run the following command:
-```pip install requirements.txt```
+```pip install -r requirements.txt```
 
 # Scraping Data
 Run the following command to scrape the data from `SpotifyCharts.com` and `Spotify's WEBAPI`:
